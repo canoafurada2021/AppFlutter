@@ -9,13 +9,12 @@ class BytebankApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: FormularioTransferencia(
-
-    ),
+        body: FormularioTransferencia()),
 
     );
-  },
+  }
 }
+
 class FormularioTransferencia extends StatelessWidget {
 
   final TextEditingController _controladorCampoNumeroConta = TextEditingController();
